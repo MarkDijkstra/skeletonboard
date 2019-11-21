@@ -1,0 +1,19 @@
+{
+  "name": "skeletonboard",
+  "version": "1.0.0",
+  "description": "skeleton dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016\u0016https://github.com/MarkDijkstra/skeletonboard.git"
+  },
+  "keywords": [
+    "skeleton",
+    "dashboard"
+  ],
+  "author": "mark dijkstra\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[3~\u001b[3~\u001b[M",
+  "license": "ISC"
+}
