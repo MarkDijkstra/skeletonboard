@@ -6,8 +6,9 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel <your entry file>",
-    "build": "npm run parcel && npm run sass",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir prod",
+    //"build": "npm run parcel && npm run sass",
     "sass": "sass",
     "parcel": "parcel build index.html"
   },
