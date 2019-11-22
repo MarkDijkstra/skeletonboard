@@ -1,0 +1,33 @@
+/*
+Project     : Skeletonboard
+Filename    : _default.scss
+Version     : 1.0
+Author      : Mark Dijkstra
+Last change : --/--/----
+*/
+
+
+$body-bg-color : #f0f1f5;
+
+body{
+   background-color : $body-bg-color;
+}
+
+.header-main{
+  &__top {
+    background-color : #673ab7;
+    color            : #fff;
+  }
+  &__bottom {
+    background-color : #fff;
+    color            : #555;
+    border-bottom    : 1px solid #ccc;
+  }
+}
+
+.footer-main{
+    background-color : #fff;
+    color            : #555;
+    border-top       : 1px solid #ccc;
+}
+

@@ -4,19 +4,27 @@
   "description": "skeleton dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel <your entry file>",
+    "build": "npm run parcel && npm run sass",
+    "sass": "sass",
+    "parcel": "parcel build index.html"
   },
   "repository": {
     "type": "git",
-    "url": "\u0016\u0016\u0016https://github.com/MarkDijkstra/skeletonboard.git"
+    "url": "https://github.com/MarkDijkstra/skeletonboard.git"
   },
   "keywords": [
     "skeleton",
     "dashboard"
   ],
-  "author": "mark dijkstra\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[3~\u001b[3~\u001b[M",
+  "author": "mark dijkstra",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "autoprefixer": "^9.7.2",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.7"
   }
 }

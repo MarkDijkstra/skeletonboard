@@ -1,0 +1,9 @@
+{
+  "main": "core.scss",
+  "source": true,
+  "sourceMap": true,
+  "plugins": {
+    "autoprefixer": true,
+     "cssnano": true
+  }
+}
