@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --out-dir prod",
-    //"build": "npm run parcel && npm run sass",
     "sass": "sass",
     "parcel": "parcel build index.html"
   },
