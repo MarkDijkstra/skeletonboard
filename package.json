@@ -7,9 +7,8 @@
     "start": "parcel ./src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --out-dir prod",
-    "sass": "sass",
-    "parcel": "parcel build index.html"
+    "build": "rm -rf prod && parcel build src/index.html --out-dir prod --no-minify",
+    "sass": "sass"
   },
   "repository": {
     "type": "git",
@@ -24,8 +23,15 @@
   "devDependencies": {
     "@babel/preset-env": "^7.7.1",
     "autoprefixer": "^9.7.2",
+    "babel-plugin-styled-components": "^1.10.6",
     "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",
-    "sass": "^1.23.7"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "sass": "^1.23.7",
+    "styled-components": "^4.4.1"
+  },
+  "dependencies": {
+    "src": "^1.1.2"
   }
 }
